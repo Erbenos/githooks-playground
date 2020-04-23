@@ -16,5 +16,6 @@ check_run() {
 # In this example it's used to run `npm install` if package.json changed
 check_run package.json "npm install"
 check_run testdir/package.json "npm install"
+check_run wow.txt "mkdir bazinga && cd bazinga && touch xd"
 
 echo "npm install complete :)"
